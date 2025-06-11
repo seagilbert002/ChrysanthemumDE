@@ -1,0 +1,4 @@
+2025-06-10 21:48:57.466 [info] Started local extension host with pid 89071.
+2025-06-10 21:48:57.520 [info] ComputeTargetPlatform: linux-x64
+2025-06-10 21:49:00.239 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-10 21:49:00.268 [info] [perf] Render performance baseline is 42ms

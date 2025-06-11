@@ -1,0 +1,98 @@
+* {
+	font-family: "Intone Mono", monospace;
+	font-size: 12pt;
+	padding: 0px;
+	background: transparent; 
+	margin: 1px;
+}
+
+window#waybar {
+	background-image: linear-gradient(to bottom, #272e33 100%);
+	border-radius: 14px;
+	opacity: 0.8;
+}
+
+#battery,
+#network,
+#memory,
+#cpu,
+#clock,
+#tray,
+#workspaces,
+#pulseaudio {
+	background-image: linear-gradient(to bottom, #4f5b58 100%);
+	border-radius: 14px;
+	padding: 0px 4px 0px 4px;
+	margin: 3px 1px 3px 1px;
+	color: #d3c6aa;	
+	transition-duration: 120ms;
+}
+
+#clock {
+	margin-right: 6px;
+}
+
+#pulseaudio:hover {
+	background-image: linear-gradient(to bottom, #493b40 100%);
+	transition-duration: 120ms;
+}
+
+#custom-applauncher {
+	color: #a7c080;
+	font-weight: bold;
+	background-image: linear-gradient(to bottom, #4f5b58 100%);
+	padding: 2px;
+	border-radius: 14px;
+}
+
+#custom-applauncher:hover {
+	background-image: linear-gradient(to bottom, #7fbbb3 100%);
+	border-radius: 14px;
+}
+#tray {
+	color: #d3c6aa;
+}
+#tray menu {
+  background-color: #2e383c;
+  color: #d3c6aa;
+  padding: 4px;
+}
+#tray menu menuitem {
+  background-image: linear-gradient(to bottom, #4f5b58 100%);
+
+  margin: 3px;
+  color: #d3c6aa;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #3c4841;
+}
+#tray menu menuitem:hover {
+  background-image: linear-gradient(to bottom, #4f5b58 100%);
+  color: #a7c080;
+  font-weight: bold;
+}
+
+
+#workspaces button:hover {
+  transition-duration: 120ms;
+  color: #a7c080;
+}
+
+#workspaces button.active {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border-radius: 20px;
+	background-color: #493b40;
+	font-weight: bold;
+}
+
+#battery {
+  background-color: #414b50;
+  color: #d3c6aa;
+}
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+  color: #e57e80;
+  background-color: #45443c;
+}

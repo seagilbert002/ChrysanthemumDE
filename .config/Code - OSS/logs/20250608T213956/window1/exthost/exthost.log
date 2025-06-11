@@ -1,0 +1,33 @@
+2025-06-08 21:39:59.440 [info] Extension host with pid 6860 started
+2025-06-08 21:39:59.794 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-08 21:39:59.859 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-08 21:39:59.937 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-08 21:40:00.069 [info] Eager extensions activated
+2025-06-08 21:40:00.094 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-08 21:40:00.098 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-08 21:40:07.416 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-08 21:40:24.792 [info] ExtensionService#_doActivateExtension sainnhe.everforest, startup: false, activationEvent: 'onStartupFinished'
+2025-06-08 21:40:28.554 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-08 21:40:28.569 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-08 21:40:28.668 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-08 21:40:56.664 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-08 21:40:56.680 [info] Extension host with pid 6860 exiting with code 0
+2025-06-08 21:40:58.590 [info] Extension host with pid 7072 started
+2025-06-08 21:40:58.590 [info] Skipping acquiring lock for /home/kalli/.config/Code - OSS/User/workspaceStorage/8e4bba74f1da69e31ecae35f7a2eaca6.
+2025-06-08 21:40:58.693 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-08 21:40:58.716 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-08 21:40:58.811 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-08 21:40:58.893 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-08 21:40:59.289 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-06-08 21:40:59.295 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-08 21:40:59.342 [info] Eager extensions activated
+2025-06-08 21:40:59.344 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-08 21:40:59.349 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-08 21:40:59.379 [info] ExtensionService#_doActivateExtension sainnhe.everforest, startup: false, activationEvent: 'onStartupFinished'
+2025-06-08 21:41:02.392 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-06-08 22:34:52.219 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2025-06-08 22:36:41.931 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-06-08 22:36:43.131 [error] Error: ENOENT: no such file or directory, open '/home/kalli/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2025-06-08 23:21:32.447 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-08 23:21:32.498 [error] Error: ENOENT: no such file or directory, open '/home/kalli/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2025-06-08 23:21:32.501 [info] Extension host with pid 7072 exiting with code 0

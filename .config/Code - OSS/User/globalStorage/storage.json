@@ -1,0 +1,81 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "cc8df3c8da9f196bbba9b52e123fc0076ee5ce1cfcb68390b20d59450e1a98d4",
+    "telemetry.devDeviceId": "cf335ca2-c0b9-4dfe-9998-28687a8823cb",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/kalli/.config"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/kalli/.ssh": "__default__profile__",
+            "file:///home/kalli/.config": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#2d353b",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#9aa79d",
+            "background": "#2d353b",
+            "editorBackground": "#2d353b",
+            "titleBarBackground": "#2d353b",
+            "titleBarBorder": "#2d353b",
+            "activityBarBackground": "#2d353b",
+            "activityBarBorder": "#2d353b",
+            "sideBarBackground": "#2d353b",
+            "statusBarBackground": "#2d353b",
+            "statusBarBorder": "#2d353b",
+            "statusBarNoFolderBackground": "#2d353b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/kalli/.config",
+            "backupPath": "/home/kalli/.config/Code - OSS/Backups/578e2846a967586987839114aa1cb558",
+            "uiState": {
+                "mode": 1,
+                "x": 7,
+                "y": 50,
+                "width": 1906,
+                "height": 1021
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "8e4bba74f1da69e31ecae35f7a2eaca6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "bf843042c1db3939568406cc213051c6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
