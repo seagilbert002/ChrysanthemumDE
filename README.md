@@ -33,6 +33,8 @@ Thist is my personal setup for the Hyprland window manager and includes configur
 - hyprland-polkit-agent
 - wofi
 - hyprshot
+- hyprlock
+- hypridle
 
 ## Credits
 - [sainnhe's everforest theme](https://github.com/sainnhe/everforest)
