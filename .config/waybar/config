@@ -3,7 +3,7 @@
   "spacing": 0,
   "height": 0,
   "margin-bottom": 0,
-  "margin-top": 4,
+  "margin-top": 0,
   "position": "top",
   "margin-right": 5,
   "margin-left": 5,
@@ -19,9 +19,18 @@
     "network",
     "battery",
     "pulseaudio",
+    "backlight",
     "tray",
     "clock"
   ],
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": ["", "", "", "", "", "", "", "", ""],
+    "on-scroll-up": "brightnessctl set 1%+",
+    "on-scroll-down": "brightnessctl set 1%-",
+    "min-length": 6
+  },
   "hyprland/workspaces": {
     "disable-scroll": true,
     "all-outputs": false,
@@ -34,7 +43,7 @@
   },
   "custom/applauncher": {
     "format": " 󰌪 ",
-    "on-click": "pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --show drun --location=top -y 15",
+    "on-click": "powermenu.sh",
     "tooltip": false
   },
   "tray": {
@@ -42,7 +51,7 @@
     "tooltip": false
   },
   "clock": {
-    "format": "󰅐 {:%H:%M  %m-%d-%Y}",
+    "format": "󰅐 {:%H:%M  %m-%d}",
     "tooltip": false
   },
   "network": {
